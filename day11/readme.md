@@ -1,0 +1,1 @@
+In python, anything that you enclose between single or double quotes marks is considered as a string.
