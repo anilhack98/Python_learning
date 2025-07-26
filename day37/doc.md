@@ -1,0 +1,2 @@
+Finally Clause
+-> The finally code block is also a part of exception handling. When we handle exception using the try and except block, we can include a finally block at the end. The finally block is always executed,so it is generally used for doing the concluding tasks like closing file resources.
