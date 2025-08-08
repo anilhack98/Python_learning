@@ -47,3 +47,28 @@ local -[laptop/Pc]
     --> git checkout <-branch name->   (to navigate)
     --> git checkout -b <-new branch name->  (to create new branch)
     --> git branch -d <-To delete branch->
+
+# when you add new branch and add some new feature You need to push the file
+   --> git push -u origin <-branch name->
+
+# Note
+-> when You add new feature to Feature1 you will see changes to feature1 branch and in main branch there will be nothing changed
+
+# Merging Code
+# Way 1
+    --> git diff <-branch name->  (to compare commits, branches, files and more)
+    --> git merge <-branch name->  (to merge 2 branches)
+
+ # Way 2
+  -> Create a PR  (PR= Pull Request)
+
+# Pull Request
+ -> It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+ # Pull Command
+ -> Used to fetch and download content form a remote repo and immediately update the local repo to match that content.
+     --> git pull origin main
+
+
+# Resolving Merge Conflicts
+-> An event that takes place when Git is unable to automatically resolve differences in code between two commits.
