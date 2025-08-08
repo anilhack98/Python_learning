@@ -72,3 +72,19 @@ local -[laptop/Pc]
 
 # Resolving Merge Conflicts
 -> An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+
+# Undoing Changes
+-> Case 1: Staged changes (Added but not commited)
+   -> git reset <-file name->
+   -> git reset
+-> Case 2: Commited Changes (for one commit)
+git reset HEAD~1
+
+-> Case 3: Commited Changes (for many commits)
+    -> git reset <- commit hash->
+    -> git reset --hard <- commit hash->    
+
+# Fork
+ -> A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+  -> Fork is rough copy.
