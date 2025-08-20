@@ -87,4 +87,4 @@ git reset HEAD~1
 
 # Fork
  -> A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
-  -> Fork is rough copy.
+  -> Fork is rough copy
